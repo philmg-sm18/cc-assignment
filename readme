@@ -4,8 +4,8 @@
 #!/bin/bash
 yum update -y
 yum install git -y
-git clone https://github.com/philmg-sm18/cc-assignment.git
-cd cc-assignment
+git clone https://github.com/philmg-sm18/ccassign.git
+cd ccassign
 pip3 install flask
 pip3 install pymysql
 pip3 install boto3
